@@ -61,6 +61,17 @@ section {
     padding: 15px;
 }
 
+.company-icon {
+    height: 50px; /* Ajuste conforme necessário */
+    width: auto; /* Mantém a proporção do ícone */
+    position: absolute; /* Posiciona o ícone de forma absoluta */
+    top: 0px; /* Ajuste a distância do topo conforme necessário */
+    left: 0px; /* Ajuste a distância da esquerda conforme necessário */
+}
+
+header {
+    position: relative; /* Necessário para o posicionamento absoluto do ícone */
+}
 /* Footer */
 footer {
     background-color: #003366; /* Azul escuro para o rodapé */
@@ -83,3 +94,6 @@ footer {
     color: #25D366; /* Cor do ícone */
     margin-left: 100px;
     margin-bottom: 60px;/* Margem à esquerda de 30px */
+
+
+    
